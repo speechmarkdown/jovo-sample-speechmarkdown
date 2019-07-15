@@ -18,7 +18,7 @@ module.exports = {
      plugin: {
         SpeechMarkdown: {
             options: {
-                includeParagraphTag: true,
+                includeParagraphTag: false,
             }
         }
      }

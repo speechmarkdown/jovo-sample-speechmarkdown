@@ -36,7 +36,7 @@ app.setHandler({
     },
 
     MyNameIsIntent() {
-        this.tell(`#[voice:'Brian'] Hey ${this.$inputs.name.value}, nice to meet you!`);
+        this.tell(`#[voice:'Brian'] Hey ${this.$inputs.name.value}, nice to meet you`);
     },
 });
 
